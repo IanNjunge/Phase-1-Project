@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WisdomForYou</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>WisdomForYou</h1>
+
+    <!-- Quote Section -->
+    <div id="quote-container">
+      <p id="quote-text">Loading quote...</p>
+      <p id="quote-author"></p>
+
+      <!-- Like button -->
+      <button id="like-btn">Like ❤️</button>
+      <span id="like-count">0</span> Likes
+
+      <!-- New quote button -->
+      <br />
+      <button id="new-quote-button">New Quote</button>
+    </div>
+
+    <!-- Comment Form -->
+    <form id="comment-form">
+      <h3>Leave a comment</h3>
+      <input type="text" id="comment-input" placeholder="Your comment..." required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- List of Comments -->
+    <ul id="comment-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

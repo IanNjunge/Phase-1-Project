@@ -1,0 +1,91 @@
+/* Base body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://www.invaluable.com/blog/wp-content/uploads/sites/77/2018/12/shutterstock_753294010.jpg);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container box styling */
+.container {
+  background: rgb(56, 17, 17);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  color: #ced8df;
+  
+}
+
+/* Quote block spacing */
+#quote-container {
+  margin-bottom: 20px;
+}
+
+/* Buttons styling */
+#like-btn,
+#new-quote-button {
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  background-color: #5a5757;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#like-btn:hover,
+#new-quote-button:hover {
+  background-color: #161616;
+}
+
+/* Comment form spacing */
+form {
+  margin-top: 20px;
+}
+
+/* Text input field styling */
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  border: 1px solid #0f0f0f;
+  border-radius: 5px;
+  
+}
+
+/* Submit button */
+button[type="submit"] {
+  padding: 10px;
+  background-color: rgb(107, 102, 102);
+  color: rgb(221, 216, 216);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(187, 182, 182);
+}
+
+/* Comments list styling */
+#comment-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#comment-list li {
+  background: #332f2f;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}

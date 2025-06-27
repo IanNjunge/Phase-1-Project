@@ -1,0 +1,71 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates",
+      "likes": 1
+    },
+    {
+      "id": 2,
+      "text": "In the middle of difficulty lies opportunity.",
+      "author": "Albert Einstein",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "text": "Life itself is the most wonderful fairy tale.",
+      "author": "Hans Christian Andersen",
+      "likes": 2
+    },
+    {
+      "id": 4,
+      "text": "Turn your wounds into wisdom.",
+      "author": "Oprah Winfrey",
+      "likes": 1
+    },
+    {
+      "id": 5,
+      "text": "Everything you can imagine is real.",
+      "author": "Pablo Picasso",
+      "likes": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "quoteId": 1,
+      "text": "This is an eyeopener."
+    },
+    {
+      "id": 2,
+      "quoteId": 2,
+      "text": "I needed to hear this."
+    },
+    {
+      "quoteId": 2,
+      "text": "I needed this",
+      "id": 3
+    },
+    {
+      "quoteId": 1,
+      "text": "True!",
+      "id": 4
+    },
+    {
+      "quoteId": 5,
+      "text": "I love WisdomForYou!!",
+      "id": 5
+    },
+    {
+      "quoteId": 3,
+      "text": "yessss",
+      "id": 6
+    },
+    {
+      "quoteId": 2,
+      "text": "True!",
+      "id": 7
+    }
+  ]
+}
